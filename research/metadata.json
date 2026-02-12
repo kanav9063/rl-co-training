@@ -1,0 +1,10 @@
+{
+  "topic": "RL Co-Training: Generator-Verifier Co-Evolution Paradigms",
+  "date": "2026-02-11T22:17:00Z",
+  "phases": {
+    "web": {"queries": 11, "sources_scraped": 17, "sources_selected": 10},
+    "twitter": {"queries": 6, "tweet_clusters": 18, "key_systems": 8},
+    "papers": {"queries": 7, "papers_found": 40, "papers_analyzed": 11},
+    "github": {"queries": 10, "repos_found": 15, "repos_analyzed": 6}
+  }
+}
