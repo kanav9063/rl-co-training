@@ -56,5 +56,4 @@ Unlike prior work with fixed or independently-trained summarizers, MARS enables 
 
 - Shows co-training works beyond verification → dual cognitive architectures
 - The multi-agent GRPO extension is directly applicable
-- Zero RL setting is interesting — could we skip SFT in nanochat and go straight to co-training?
 - Credit assignment techniques are essential for any multi-agent RL setup

@@ -44,14 +44,11 @@ Co-training creates a virtuous cycle where both models push each other to improv
 
 ## Research Directions
 
-1. **Minimal co-training on nanochat**: Implement Tango-style generator-verifier interleaved RL on top of nanochat's existing GRPO pipeline
 2. **Self-play without ground truth**: Combine MAE's judge-free approach with Tango's generative verifier
 3. **Scaling laws for co-training**: How does co-training benefit scale with model size?
 4. **Beyond math**: Apply co-training to code, general reasoning, agentic tasks
 
-## Building on nanochat
 
-[nanochat](https://github.com/karpathy/nanochat) already implements the full LLM training pipeline (pretraining → SFT → RL) on a single GPU node. This project extends nanochat's RL stage to support:
 - A second model (verifier) trained in parallel
 - Interleaved training schedules (Ng generator steps, Nv verifier steps)
 - Generative verification with process-level rewards
@@ -68,7 +65,6 @@ Co-training creates a virtuous cycle where both models push each other to improv
 │   └── landscape.md
 ├── ideas/               # Research directions and experiment plans
 │   ├── research-directions.md
-│   ├── nanochat-integration.md
 │   └── experiment-plan.md
 └── src/                 # Implementation (placeholder)
     └── __init__.py

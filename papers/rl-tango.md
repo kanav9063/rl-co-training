@@ -51,6 +51,4 @@ Current RL post-training for LLMs uses **fixed verifiers** (rule-based or frozen
 
 ## Relevance to Our Research
 
-- Direct template for implementing co-training on nanochat
 - Their codebase is open source — can study implementation details
-- Key question: Can we reproduce on smaller scale with nanochat's training setup?

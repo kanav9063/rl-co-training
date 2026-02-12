@@ -1,17 +1,13 @@
 # Research Directions
 
-## Direction 1: Tango-Lite on Nanochat
 **Priority: HIGH**
 
-Implement a minimal version of RL Tango's generator-verifier co-training on nanochat.
 
-- Start with nanochat's existing GRPO setup
 - Add a second model (verifier) — same architecture, separate weights
 - Implement interleaved training: N_g generator steps, N_v verifier steps
 - Verifier generates text-based correctness judgments
 - Use verifier output as additional reward signal for generator
 
-**Expected outcome:** Demonstrate co-training improves over single-model GRPO even at nanochat scale.
 
 ## Direction 2: Self-Play Without Ground Truth
 **Priority: HIGH**
@@ -36,10 +32,8 @@ Explore heterogeneous architectures:
 **Priority: MEDIUM**
 
 Implement MARS-style multi-agent GRPO:
-- Extend nanochat's GRPO with decoupled gradients
 - Shared trajectory rewards between agents
 - Advantage-weighted balanced sampling
-- Could enable arbitrary multi-agent training on nanochat
 
 ## Direction 5: Co-Training for Code
 **Priority: MEDIUM**

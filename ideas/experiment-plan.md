@@ -2,10 +2,7 @@
 
 ## Phase 1: Reproduce Baselines (1-2 weeks)
 
-### Experiment 1.1: Nanochat GRPO Baseline
-- Train standard nanochat model with GRPO on math data
 - Dataset: GSM8K or MATH subset
-- Model: nanochat default (~350M-1B)
 - Metric: pass@1 accuracy
 - Purpose: Establish single-model RL baseline
 
@@ -66,7 +63,6 @@
 
 ## Compute Budget
 
-Assuming single 8×H100 node (nanochat default):
 - Phase 1: ~$50 (2 training runs)
 - Phase 2: ~$200 (multiple ablation runs)
 - Phase 3: ~$300 (larger models, more experiments)
